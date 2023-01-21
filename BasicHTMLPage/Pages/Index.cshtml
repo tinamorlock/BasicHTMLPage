@@ -1,0 +1,20 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Listen to Shiny Toy Guns</h1>
+    <div class="video-container">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/jJH38M723aU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+</div>
+
+<p>
+    <button onclick="myMove()">Click Me to Animate!</button>
+</p>
+
+<div id="myContainer">
+    <div id="myAnimation"></div>
+</div>
